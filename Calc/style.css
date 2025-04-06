@@ -25,9 +25,12 @@ input{
     border: none;
     padding: 24px;
     margin: 10px;
+    color: white;
     background: transparent;
+    background-color: rgb(255,255,255,0.07);
+    border-radius: 10px;
     box-shadow: 0px 3px 15px rgbs(84,84,84,0.1);
-    font-size: 50px;
+    font-size: 30px;
     text-align: right;
     cursor: pointer;
 }
@@ -47,4 +50,11 @@ button{
     font-size: 20px;
     cursor: pointer;
     box-shadow: 0px 0px 15px rgb(0,0,0,0.4);
+}
+.operator{
+    color: rgb(31, 194, 31);
+}
+.equalsign{
+    color: rgb(0, 0, 0);
+    background-color: rgb(246, 85, 27);
 }
